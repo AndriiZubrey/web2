@@ -83,7 +83,7 @@ if (localStorage.getItem("task5list") != null) {
 	document.getElementById("box4").innerHTML = localStorage.getItem("task5list") + "</ol>";
 }
 
-localStorage.removeItem("task5list");
+//localStorage.removeItem("task5list"); // не буде очищати память але не можна буде добавляти.
 task1();
 task2();
 
